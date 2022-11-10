@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div>
+      <section class="bg-gray-100 text-gray-600 h-screen px-4">
+        <div class="flex flex-col h-full">
+          <!-- Table -->
+          <div
+            class="w-full max-w-2xl mx-auto bg-white shadow-lg rounded-sm border border-gray-200"
+          >
+            <header class="px-5 py-4 border-b border-gray-100">
+              <h2 class="font-semibold text-gray-800">Oído Derecho</h2>
+            </header>
+            <form action="" id="rightEarForm">
+
+              <div class="p-3">
+                <div class="overflow-x-auto">
+                  <table class="table-auto w-full">
+                    <thead
+                      class="text-xs font-semibold uppercase text-gray-400 bg-gray-50"
+                    >
+                      <tr>
+                        <th class="p-2">
+                          <div class="font-semibold text-left"></div>
+                        </th>
+                        <th class="p-2" style="width: 50px;">
+                          <div class="font-semibold text-left">125</div>
+                        </th>
+                        <th class="p-2">
+                          <div class="font-semibold text-left">250</div>
+                        </th>
+                        <th class="p-2">
+                          <div class="font-semibold text-left">500</div>
+                        </th>
+                        <th class="p-2">
+                          <div class="font-semibold text-center">1000</div>
+                        </th>
+                        <th class="p-2">
+                          <div class="font-semibold text-center">2000</div>
+                        </th>
+                        <th class="p-2">
+                          <div class="font-semibold text-center">3000</div>
+                        </th>
+                        <th class="p-2">
+                          <div class="font-semibold text-center">4000</div>
+                        </th>
+                        <th class="p-2">
+                          <div class="font-semibold text-center">6000</div>
+                        </th>
+                        <th class="p-2">
+                          <div class="font-semibold text-center">8000</div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody class="text-sm divide-y divide-gray-100">
+                      <tr>
+                        <td class="p-2">
+                          <div class="text-left">V.A.</div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border"/>
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p-2">
+                          <div class="text-left">V.O.</div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p-2">
+                          <div class="text-left">Enmasc. aérea</div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="p-2">
+                          <div class="text-left">Enmasc. ósea</div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                        <td class="p-2">
+                          <div class="text-left">
+                            <input type="text" class="border" />
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+            </form>
+
+          </div>
+
+          <!-- Button -->
+          <div class="mx-auto flex justify-center my-10">
+            <button
+              class="bg-gray-200 hover:bg-gray-300 text-grey-darkest font-bold py-1 px-2 rounded inline-flex items-center"
+              onclick="draw()"
+            >
+              <span>Graficar</span>
+            </button>
+          </div>
+
+          <!-- Chart -->
+          <div  class="w-full max-w-2xl mx-auto bg-white shadow-lg rounded-sm border border-gray-200">
+            <canvas id="myChart" width="400" height="200"></canvas>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
